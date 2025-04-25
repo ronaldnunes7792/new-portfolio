@@ -32,13 +32,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src={profile.avatar}
-              alt="Ketan portrait"
-              width="192"
-              height="192"
+              src="/ronald.png"
+              alt="Ronald Nunes"
+              width="292"
+              height="292"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-54 w-54 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -63,7 +63,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm {profile.name}.</span>
+        <span className="font-bold">Hi, I'm {profile.name}.</span>
         <motion.span
           className="text-4xl"
           initial={{ opacity: 0, scale: 0 }}

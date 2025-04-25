@@ -13,7 +13,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
-  url,
+  // url,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -49,7 +49,7 @@ export default function Project({
             ))}
           </ul>
 
-          {url && (
+          {/* {url && (
             <Button
               className={
                 "transition transform z-10 translate-y-8 ease-in-out invisible absolute group-hover:visible  rounded-full right-8 top-4 group-hover:translate-y-0"
@@ -57,7 +57,7 @@ export default function Project({
             >
               <a href={url}>View</a>
             </Button>
-          )}
+          )} */}
         </div>
 
         <Image
