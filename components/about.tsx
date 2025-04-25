@@ -19,31 +19,20 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a postgraduate degree in{" "}
-        <span className="font-medium">Computer Science</span>, Upon graduation,
-        I embarked on a journey to become a{" "}
-        <span className="font-medium">full-stack web developer</span>. What
-        drives me most is the thrill of untangling a complex problem and
-        crafting an effective solution. My core stack is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, MongoDB, and React Native
-        </span>{" "}
-        allowing me to build dynamic and engaging applications across the{" "}
-        <span className="italic">web and mobile platforms</span>. I am also
-        familiar with{" "}
-        <span className="font-medium">
-          TypeScript, electronJS, Python, Flask and fastapi
-        </span>
-        . I am always looking to learn new technologies. I am currently looking
-        for a <span className="font-medium">full-time position</span> as a
-        software developer.
+        I am a full-stack web developer who has been building fast, scalable, and user-friendly web applications for over 5 years.
+
+        <br></br>
+
+        I specialize in building modern, clean, and responsive interfaces using frameworks like
+
+        <span className="font-medium">JavaScript, TypeScript, React, Next.js, Vue.js, Node.js, and Laravel and Tailwind CSS.</span>
+
+        <br></br>
+        These tools help me write clean code, solve problems faster, deliver high-quality results, and often deliver results faster than expected.       <br></br>
+        I pride myself on writing clean, maintainable code that scales for your business and looks great on all devices.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies and anime series, or taking walks for a
-        breath of fresh air.
-      </p>
+
     </motion.section>
   );
 }
